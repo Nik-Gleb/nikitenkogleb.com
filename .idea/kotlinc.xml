@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Kotlin2JvmCompilerArguments">
+    <option name="jvmTarget" value="17" />
+  </component>
+  <component name="KotlinCompilerSettings">
+    <option name="additionalArguments" value="-opt-in=kotlin.RequiresOptIn -Xjdk-release=17 -jvm-target=17 -Xjvm-default=all -Xbackend-threads=0 -Xuse-k2" />
+  </component>
+  <component name="KotlinJpsPluginSettings">
+    <option name="version" value="1.8.10" />
+  </component>
+</project>

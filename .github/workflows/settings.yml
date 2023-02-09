@@ -1,0 +1,29 @@
+name: Settings
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "settings/build.gradle.kts"
+jobs:
+  build:
+    name: settings on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ macos-latest, windows-latest, ubuntu-latest ]
+    steps:
+      - name: Setup sources
+        uses: actions/checkout@v3.3.0
+      - name: Setup GraalVM
+        uses: graalvm/setup-graalvm@v1
+        with:
+          version: '22.3.1'
+          java-version: '17'
+          components: ''
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          cache: 'gradle'
+      - name: Setup properties
+        run: java -jar ./properties.jar
+      - name: Run assemble
+        run: ./gradlew properties

@@ -1,0 +1,16 @@
+.idea/shelf
+.idea/dictionaries
+.idea/libraries
+.idea/modules
+.idea/gradle.xml
+.idea/modules.xml
+.idea/uiDesigner.xml
+.idea/workspace.xml
+build
+/*/build/*
+.gradle
+/*/.gradle/*
+/*/.idea
+/*/gradle
+/*/gradlew
+/*/gradlew.bat
