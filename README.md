@@ -4,6 +4,26 @@
 
 All my open source works in a single monorepo
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+```mermaid
+flowchart LR
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+    click A "https://www.github.com" _blank
+    click B "https://www.github.com" "Open this in a new tab" _blank
+    click C href "https://www.github.com" _blank
+    click D href "https://www.github.com" "Open this in a new tab" _blank
+```
+
 ## [LICENSE](LICENSE)
 
 MIT License
