@@ -4,6 +4,8 @@
 
 All my open source works in a single monorepo
 
+[Settings](settings/README.md)
+
 ## [LICENSE](LICENSE)
 
 MIT License
