@@ -4,7 +4,7 @@
 
 All my open source works in a single monorepo
 
-[Settings](settings/README.md)
+[Settings](settings)
 
 ## [LICENSE](LICENSE)
 
