@@ -1,17 +1,22 @@
 root = true
 
 [*]
-charset = utf-8
-trim_trailing_whitespace = true
-insert_final_newline = true
-end_of_line = lf
-indent_style = space
-indent_size = 2
-max_line_length = 100
-tab_width = 2
+charset                             = utf-8
+trim_trailing_whitespace            = true
+insert_final_newline                = true
+end_of_line                         = lf
+indent_style                        = space
+indent_size                         = 2
+tab_width                           = 2
+max_line_length                     = 100
 
-ij_any_else_on_new_line = false
-ij_any_catch_on_new_line = false
-ij_any_finally_on_new_line = false
+ij_any_keep_blank_lines_in_code     = 1
+ij_any_else_on_new_line             = false
+ij_any_catch_on_new_line            = false
+ij_any_finally_on_new_line          = false
 ij_any_block_comment_at_first_column = false
 ij_any_line_comment_at_first_column = false
+
+
+[*.{md,markdown,patch,diff,txt}]
+trim_trailing_whitespace = false

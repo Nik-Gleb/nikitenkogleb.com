@@ -1,8 +1,12 @@
+/gradlew text eol=lf
+/gradlew linguist-vendored
 * text=auto eol=lf
 *.bat text eol=crlf
 *.bat linguist-vendored
 *.sh text eol=lf
 *.sh linguist-vendored
-/gradlew text eol=lf
-/gradlew linguist-vendored
 *.jar binary
+*.mustache text eol=lf
+*.mustache linguist-vendored
+*.html text eol=lf
+*.html linguist-vendored

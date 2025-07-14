@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <description>nikitenkogleb.com</description>
+    <option name="myName" value="Project Default"/>
+    <inspection_tool
+      class="AndroidLintUnsafeImplicitIntentLaunch"
+      enabled="true"
+      level="ERROR"/>
+    <inspection_tool
+      class="ShrinkerUnresolvedReference"
+      enabled="true"
+      level="WARNING"/>
+    <inspection_tool
+      class="SpellCheckingInspection"
+      enabled="true"
+      level="INFO">
+      <option name="processCode"      value="true"/>
+      <option name="processLiterals"  value="true"/>
+      <option name="processComments"  value="true"/>
+    </inspection_tool>
+    <inspection_tool
+      class="UnusedLibraryInGradleVersionCatalog"
+      enabled="true"
+      level="WARNING"/>
+    <inspection_tool
+      class="UnusedVersionInGradleVersionCatalog"
+      enabled="true"
+      level="WARNING"/>
+  </profile>
+</component>
