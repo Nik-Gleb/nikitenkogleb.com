@@ -6,8 +6,13 @@
   <component name="Kotlin2JvmCompilerArguments">
     <option name="jvmTarget" value="17" />
   </component>
+  <component name="KotlinCommonCompilerArguments">
+    <option name="apiVersion" value="2.3" />
+    <option name="languageVersion" value="2.3" />
+  </component>
   <component name="KotlinCompilerSettings">
-    <option name="additionalArguments" value="-opt-in=kotlin.RequiresOptIn -Xjdk-release=17 -jvm-target=17 -Xjvm-default=all -Xbackend-threads=0 -Xuse-k2 -Xcontext-receivers" />
+    <option name="additionalArguments"
+            value="-opt-in=kotlin.RequiresOptIn -Xjdk-release=17 -jvm-target=17 -Xjvm-default=all -Xbackend-threads=0 -Xuse-k2 -Xcontext-receivers" />
   </component>
   <component name="KotlinJpsPluginSettings">
     <option name="version" value="2.3.0" />
